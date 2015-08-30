@@ -3,6 +3,8 @@ gedit3-codefolding
 
 This plugin adds code folding support to gedit 3.x. It supports several (meaning more than 1) languages. Note that this plugin is <b>not</b> compatible with gedit 2.x.
 
+This has not been tested on gedit versions before 3.10. If you're on gedit &lt; 3.10 and the plugin does not work, try changing the loader in /src/codefolding.plugin from "python3" to "python".
+
 ##Features
 Besides folding indivudual blocks by clicking the respective block start markers on the left margin, two other operations are supported either from the Tools menu or from the keyboard like this
 - <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>: Toggle all blocks
@@ -27,7 +29,7 @@ Besides folding indivudual blocks by clicking the respective block start markers
 - XML
 
 ##Installation
-Copy both the files from the src directory of this repo & place in .local/share/gedit/plugins directory.
+Copy the codefolding directory of this repo & place it in your ~/.local/share/gedit/plugins directory.
 
 ##Screenshots
 Please note that most of the exmaple code in the screenshots are taken from the public domain. I apologize if I am not respecting someone's copyright here.
