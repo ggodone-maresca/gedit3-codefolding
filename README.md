@@ -12,6 +12,7 @@ Besides folding indivudual blocks by clicking the respective block start markers
 
 ##Suported languages
 - C/C++
+- C#
 - CSS
 - Go
 - Graphviz Dot
